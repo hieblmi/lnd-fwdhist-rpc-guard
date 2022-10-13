@@ -1,2 +1,2 @@
 # lnd-fwdhist-rpc-guard
-LND middleware that ensures `ForwardingHistory` calls by evaluating a custom macaroon.
+LND middleware that ensures that only `ForwardingHistory` calls are being executed via a custom macaroon.
